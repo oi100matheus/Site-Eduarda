@@ -219,3 +219,31 @@ footer {
     margin-top: auto;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilo específico para o fundo azul escuro do quick contact */
+#quick-contact {
+    background-color: #1A1713;
+    color: #F5F5F5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#quick-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quick-contact ul li {
+    margin: 10px 0;
+}
+
+#quick-contact ul li a {
+    color: #B18E72;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+#quick-contact ul li a:hover {
+    color: #C8C2B9;
+}
