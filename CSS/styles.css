@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    @font-face {
+        font-family: Headline;
+        src: url("fontes\HEADOH__.TTF");
+    }
 }
 
 :root {
